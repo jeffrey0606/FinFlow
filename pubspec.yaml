@@ -51,6 +51,11 @@ dependencies:
   qr_flutter: ^4.0.0
   path_provider: ^2.0.13
   share_plus: ^6.3.1
+  pay: ^1.1.0
+
+# Added this because of the pay package
+dependency_overrides:
+  flutter_svg: ^1.0.0
 
 dev_dependencies:
   widgetbook_generator:

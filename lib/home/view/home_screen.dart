@@ -79,7 +79,9 @@ class _HomeBodyState extends State<HomeBody> {
                 ),
                 Expanded(
                   child: SizedBox(
-                    child: BottomNavBar(),
+                    child: BottomNavBar(
+                      box: box,
+                    ),
                   ),
                 ),
               ],
